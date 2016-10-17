@@ -394,23 +394,14 @@ void rocket_in_space()
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 		moon(500, 500, 35);
 		if (star_flag == 0)
-		
 		{
-
 			stars1();
-
 			star_flag = 1;
-		
 		}
-		
 		else
-		
 		{
-	
 			stars2();
-			
 			star_flag = 0;
-		
 		}
 
 		rocket(x1, y1);
@@ -432,23 +423,14 @@ void navigate_left()
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 		moon(500, 500, 35);
 		if (star_flag == 0)
-		
 		{
-	
 			stars1();
-			
 			star_flag = 1;
-		
 		}
-		
 		else
-		
 		{
-	
 			stars2();
-			
 			star_flag = 0;
-		
 		}
 
 		rocket(x1, y1);
@@ -472,31 +454,19 @@ void navigate_right()
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 		moon(500, 500, 35);
 		if (star_flag == 0)
-		
 		{
-			
 			stars1();
-			
 			star_flag = 1;
-		
 		}
-		
 		else
-		
 		{
-	
 			stars2();
-			
 			star_flag = 0;
-		
 		}
-
 		rocket(x1, y1);
 		p++;
 		flames(x1, y1);
-
 	}
-
 }
 
 
